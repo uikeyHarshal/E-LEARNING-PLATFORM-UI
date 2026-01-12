@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Course Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">← Back</a>
+  <a href="dashboard.html">Dashboard</a>
+</nav>
+
+<section class="container">
+  <h1>Frontend Web Development</h1>
+  <p>Watch the lesson completely to track progress.</p>
+
+  <!-- Embedded Video -->
+  <div class="video-box">
+    <video id="courseVideo" width="100%" controls>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      Your browser does not support HTML video.
+    </video>
+  </div>
+
+  <p id="watchStatus">Progress: 0%</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
